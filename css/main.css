@@ -1,0 +1,52 @@
+body {
+    font-family: helvetica;
+    font-size: 40px;
+    text-align: center;
+    width: 50%;
+    display: flex;
+    margin: 0 auto;
+}
+
+#box {
+    margin: 20px auto;
+}
+#result{
+    margin: 50px;
+    font-size: 60px;
+    font-weight: 600;
+}
+
+.counter {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+#plus-button, #minus-button{
+    margin: 0 20px;
+    text-align: center;
+    background-color: rgb(169, 169, 169);
+    width: 80px;
+    height: 80px;
+    border-radius: 10px;
+    color: white;
+    font-size: 50px;
+}
+
+#plus-button:hover, #minus-button:hover {
+    color: rgb(169, 169, 169);
+    background-color: white;
+}
+
+#inputN {
+    border-color: rgb(169, 169, 169);
+    border-style: solid;
+    border-radius: 10px;
+    border-width: 4px;
+    width: 120px;
+    height: 70px;
+    font-size: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
